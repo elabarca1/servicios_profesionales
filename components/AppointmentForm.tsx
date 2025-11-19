@@ -16,7 +16,7 @@ export const AppointmentForm: React.FC = () => {
   const [formData, setFormData] = useState({
     Nombre: '',
     Email: '',
-    CodigoPais: '+58',
+    CodigoPais: '+51',
     Telefono: '',
     Servicio: '',
     Mensaje: ''
@@ -50,7 +50,7 @@ export const AppointmentForm: React.FC = () => {
         setFormData({
           Nombre: '',
           Email: '',
-          CodigoPais: '+58',
+          CodigoPais: '+51',
           Telefono: '',
           Servicio: '',
           Mensaje: ''
@@ -142,7 +142,7 @@ export const AppointmentForm: React.FC = () => {
                     value={formData.CodigoPais}
                     onChange={handleChange} 
                     className="w-full px-4 py-3 rounded-lg bg-brand-900 border border-brand-700 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-accent focus:border-transparent transition-all"
-                    placeholder="+58"
+                    placeholder="+51"
                     required
                     disabled={status === 'submitting'}
                   />
